@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Quản_Lý_Phòng_Máy
 {
-    public partial class Form_dangnhap : Form
+    public partial class frm_DangNhap : Form
     {
-        public Form_dangnhap()
+        public frm_DangNhap()
         {
             InitializeComponent();
         }
