@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Quản_Lý_Phòng_Máy
 {
-    public partial class frm_QuanLyGV : Form
+    public partial class frmGVPhuTrach : Form
     {
-        public frm_QuanLyGV()
+        public frmGVPhuTrach()
         {
             InitializeComponent();
         }

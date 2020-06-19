@@ -1,6 +1,6 @@
 ﻿namespace Quản_Lý_Phòng_Máy
 {
-    partial class frm_DangNhap
+    partial class Form_dangnhap
     {
         /// <summary>
         /// Required designer variable.
@@ -28,148 +28,148 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_DangNhap));
-            this.panel_Vang = new System.Windows.Forms.Panel();
-            this.lbl_QLPM = new System.Windows.Forms.Label();
-            this.lbl_DangNhap = new System.Windows.Forms.Label();
-            this.txt_Username = new System.Windows.Forms.TextBox();
-            this.txt_Password = new System.Windows.Forms.TextBox();
-            this.btn_DangNhap = new System.Windows.Forms.Button();
-            this.pic_Password = new System.Windows.Forms.PictureBox();
-            this.pic_Username = new System.Windows.Forms.PictureBox();
-            this.btn_Thoat = new System.Windows.Forms.Button();
-            this.panel_Vang.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_Password)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_Username)).BeginInit();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_dangnhap));
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txt_Dangnhap = new System.Windows.Forms.Label();
+            this.txt_username = new System.Windows.Forms.TextBox();
+            this.txt_password = new System.Windows.Forms.TextBox();
+            this.btn_dangnhap = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnThoat = new System.Windows.Forms.Button();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // panel_Vang
+            // panel1
             // 
-            this.panel_Vang.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.panel_Vang.Controls.Add(this.lbl_QLPM);
-            this.panel_Vang.Controls.Add(this.lbl_DangNhap);
-            this.panel_Vang.Location = new System.Drawing.Point(0, 0);
-            this.panel_Vang.Name = "panel_Vang";
-            this.panel_Vang.Size = new System.Drawing.Size(283, 62);
-            this.panel_Vang.TabIndex = 0;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.txt_Dangnhap);
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(283, 62);
+            this.panel1.TabIndex = 0;
             // 
-            // lbl_QLPM
+            // label1
             // 
-            this.lbl_QLPM.AutoSize = true;
-            this.lbl_QLPM.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_QLPM.ForeColor = System.Drawing.Color.Navy;
-            this.lbl_QLPM.Location = new System.Drawing.Point(12, 9);
-            this.lbl_QLPM.Name = "lbl_QLPM";
-            this.lbl_QLPM.Size = new System.Drawing.Size(225, 25);
-            this.lbl_QLPM.TabIndex = 1;
-            this.lbl_QLPM.Text = "Quản Lý Phòng Máy";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Navy;
+            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(225, 25);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Quản Lý Phòng Máy";
             // 
-            // lbl_DangNhap
+            // txt_Dangnhap
             // 
-            this.lbl_DangNhap.AutoSize = true;
-            this.lbl_DangNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_DangNhap.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.lbl_DangNhap.Location = new System.Drawing.Point(75, 39);
-            this.lbl_DangNhap.Name = "lbl_DangNhap";
-            this.lbl_DangNhap.Size = new System.Drawing.Size(99, 20);
-            this.lbl_DangNhap.TabIndex = 0;
-            this.lbl_DangNhap.Text = "Đăng Nhập";
-            this.lbl_DangNhap.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.txt_Dangnhap.AutoSize = true;
+            this.txt_Dangnhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Dangnhap.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.txt_Dangnhap.Location = new System.Drawing.Point(75, 39);
+            this.txt_Dangnhap.Name = "txt_Dangnhap";
+            this.txt_Dangnhap.Size = new System.Drawing.Size(99, 20);
+            this.txt_Dangnhap.TabIndex = 0;
+            this.txt_Dangnhap.Text = "Đăng Nhập";
+            this.txt_Dangnhap.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // txt_Username
+            // txt_username
             // 
-            this.txt_Username.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(50)))));
-            this.txt_Username.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txt_Username.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_Username.ForeColor = System.Drawing.SystemColors.Info;
-            this.txt_Username.Location = new System.Drawing.Point(67, 94);
-            this.txt_Username.Name = "txt_Username";
-            this.txt_Username.Size = new System.Drawing.Size(125, 19);
-            this.txt_Username.TabIndex = 2;
-            this.txt_Username.Text = "UserName";
+            this.txt_username.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(50)))));
+            this.txt_username.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_username.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_username.ForeColor = System.Drawing.SystemColors.Info;
+            this.txt_username.Location = new System.Drawing.Point(67, 94);
+            this.txt_username.Name = "txt_username";
+            this.txt_username.Size = new System.Drawing.Size(125, 19);
+            this.txt_username.TabIndex = 2;
+            this.txt_username.Text = "UserName";
             // 
-            // txt_Password
+            // txt_password
             // 
-            this.txt_Password.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(50)))));
-            this.txt_Password.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txt_Password.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_Password.ForeColor = System.Drawing.SystemColors.Info;
-            this.txt_Password.Location = new System.Drawing.Point(64, 139);
-            this.txt_Password.Name = "txt_Password";
-            this.txt_Password.Size = new System.Drawing.Size(125, 19);
-            this.txt_Password.TabIndex = 4;
-            this.txt_Password.Text = "PassWord";
+            this.txt_password.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(50)))));
+            this.txt_password.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_password.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_password.ForeColor = System.Drawing.SystemColors.Info;
+            this.txt_password.Location = new System.Drawing.Point(64, 139);
+            this.txt_password.Name = "txt_password";
+            this.txt_password.Size = new System.Drawing.Size(125, 19);
+            this.txt_password.TabIndex = 4;
+            this.txt_password.Text = "PassWord";
             // 
-            // btn_DangNhap
+            // btn_dangnhap
             // 
-            this.btn_DangNhap.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(39)))), ((int)(((byte)(49)))));
-            this.btn_DangNhap.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_DangNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_DangNhap.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btn_DangNhap.Image = ((System.Drawing.Image)(resources.GetObject("btn_DangNhap.Image")));
-            this.btn_DangNhap.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_DangNhap.Location = new System.Drawing.Point(53, 179);
-            this.btn_DangNhap.Name = "btn_DangNhap";
-            this.btn_DangNhap.Size = new System.Drawing.Size(136, 29);
-            this.btn_DangNhap.TabIndex = 5;
-            this.btn_DangNhap.Text = "Đăng Nhập";
-            this.btn_DangNhap.UseVisualStyleBackColor = false;
+            this.btn_dangnhap.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(39)))), ((int)(((byte)(49)))));
+            this.btn_dangnhap.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_dangnhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_dangnhap.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_dangnhap.Image = ((System.Drawing.Image)(resources.GetObject("btn_dangnhap.Image")));
+            this.btn_dangnhap.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_dangnhap.Location = new System.Drawing.Point(53, 179);
+            this.btn_dangnhap.Name = "btn_dangnhap";
+            this.btn_dangnhap.Size = new System.Drawing.Size(136, 29);
+            this.btn_dangnhap.TabIndex = 5;
+            this.btn_dangnhap.Text = "Đăng Nhập";
+            this.btn_dangnhap.UseVisualStyleBackColor = false;
             // 
-            // pic_Password
+            // pictureBox2
             // 
-            this.pic_Password.Image = global::Quản_Lý_Phòng_Máy.Properties.Resources._lock;
-            this.pic_Password.Location = new System.Drawing.Point(32, 132);
-            this.pic_Password.Name = "pic_Password";
-            this.pic_Password.Size = new System.Drawing.Size(26, 25);
-            this.pic_Password.TabIndex = 3;
-            this.pic_Password.TabStop = false;
+            this.pictureBox2.Image = global::Quản_Lý_Phòng_Máy.Properties.Resources._lock;
+            this.pictureBox2.Location = new System.Drawing.Point(32, 132);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(26, 25);
+            this.pictureBox2.TabIndex = 3;
+            this.pictureBox2.TabStop = false;
             // 
-            // pic_Username
+            // pictureBox1
             // 
-            this.pic_Username.Image = global::Quản_Lý_Phòng_Máy.Properties.Resources.user;
-            this.pic_Username.Location = new System.Drawing.Point(35, 87);
-            this.pic_Username.Name = "pic_Username";
-            this.pic_Username.Size = new System.Drawing.Size(26, 25);
-            this.pic_Username.TabIndex = 1;
-            this.pic_Username.TabStop = false;
+            this.pictureBox1.Image = global::Quản_Lý_Phòng_Máy.Properties.Resources.user;
+            this.pictureBox1.Location = new System.Drawing.Point(35, 87);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(26, 25);
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
             // 
-            // btn_Thoat
+            // btnThoat
             // 
-            this.btn_Thoat.BackColor = System.Drawing.Color.Red;
-            this.btn_Thoat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Thoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Thoat.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btn_Thoat.Image = ((System.Drawing.Image)(resources.GetObject("btn_Thoat.Image")));
-            this.btn_Thoat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_Thoat.Location = new System.Drawing.Point(53, 224);
-            this.btn_Thoat.Name = "btn_Thoat";
-            this.btn_Thoat.Size = new System.Drawing.Size(136, 29);
-            this.btn_Thoat.TabIndex = 6;
-            this.btn_Thoat.Text = "Thoát";
-            this.btn_Thoat.UseVisualStyleBackColor = false;
-            this.btn_Thoat.Click += new System.EventHandler(this.btnThoat_Click);
+            this.btnThoat.BackColor = System.Drawing.Color.Red;
+            this.btnThoat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThoat.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnThoat.Image = ((System.Drawing.Image)(resources.GetObject("btnThoat.Image")));
+            this.btnThoat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnThoat.Location = new System.Drawing.Point(53, 224);
+            this.btnThoat.Name = "btnThoat";
+            this.btnThoat.Size = new System.Drawing.Size(136, 29);
+            this.btnThoat.TabIndex = 6;
+            this.btnThoat.Text = "Thoát";
+            this.btnThoat.UseVisualStyleBackColor = false;
+            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
-            // frm_DangNhap
+            // Form_dangnhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(50)))));
             this.ClientSize = new System.Drawing.Size(256, 291);
-            this.Controls.Add(this.btn_Thoat);
-            this.Controls.Add(this.btn_DangNhap);
-            this.Controls.Add(this.txt_Password);
-            this.Controls.Add(this.pic_Password);
-            this.Controls.Add(this.txt_Username);
-            this.Controls.Add(this.pic_Username);
-            this.Controls.Add(this.panel_Vang);
+            this.Controls.Add(this.btnThoat);
+            this.Controls.Add(this.btn_dangnhap);
+            this.Controls.Add(this.txt_password);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.txt_username);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "frm_DangNhap";
+            this.Name = "Form_dangnhap";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frm_DangNhap";
-            this.panel_Vang.ResumeLayout(false);
-            this.panel_Vang.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_Password)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_Username)).EndInit();
+            this.Text = "Đăng Nhập";
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -177,15 +177,15 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel panel_Vang;
-        private System.Windows.Forms.Label lbl_DangNhap;
-        private System.Windows.Forms.Label lbl_QLPM;
-        private System.Windows.Forms.PictureBox pic_Username;
-        private System.Windows.Forms.TextBox txt_Username;
-        private System.Windows.Forms.TextBox txt_Password;
-        private System.Windows.Forms.PictureBox pic_Password;
-        private System.Windows.Forms.Button btn_DangNhap;
-        private System.Windows.Forms.Button btn_Thoat;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label txt_Dangnhap;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TextBox txt_username;
+        private System.Windows.Forms.TextBox txt_password;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button btn_dangnhap;
+        private System.Windows.Forms.Button btnThoat;
     }
 }
 

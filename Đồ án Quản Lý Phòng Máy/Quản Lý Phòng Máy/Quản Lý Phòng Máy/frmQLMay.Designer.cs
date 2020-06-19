@@ -1,6 +1,6 @@
 ﻿namespace Quản_Lý_Phòng_Máy
 {
-    partial class frm_QuanLyMay
+    partial class frmQLMay
     {
         /// <summary>
         /// Required designer variable.
@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lbl_QuanLyMay = new System.Windows.Forms.Label();
-            this.grp_QuanLyMay = new System.Windows.Forms.GroupBox();
-            this.grp_TimKiem = new System.Windows.Forms.GroupBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.radTrangThai = new System.Windows.Forms.RadioButton();
             this.radTenMay = new System.Windows.Forms.RadioButton();
             this.radMaMay = new System.Windows.Forms.RadioButton();
@@ -39,36 +39,36 @@
             this.btnSua = new System.Windows.Forms.Button();
             this.tbnThem = new System.Windows.Forms.Button();
             this.cbTrangThai = new System.Windows.Forms.ComboBox();
-            this.lbl_TrangThai = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.txtGhiChu = new System.Windows.Forms.TextBox();
-            this.lbl_GhiChu = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
             this.cbHeDieuHanh = new System.Windows.Forms.ComboBox();
-            this.lbl_HDH = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
             this.cbPSU = new System.Windows.Forms.ComboBox();
-            this.lbl_PSU = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.cbVGA = new System.Windows.Forms.ComboBox();
-            this.lbl_VGA = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.cbOCung = new System.Windows.Forms.ComboBox();
-            this.lbl_OCung = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             this.cbRAM = new System.Windows.Forms.ComboBox();
-            this.lbl_RAM = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             this.cbMainBoard = new System.Windows.Forms.ComboBox();
-            this.lbl_MainBoard = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
             this.cbCPU = new System.Windows.Forms.ComboBox();
-            this.lbl_CPU = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.cbCase = new System.Windows.Forms.ComboBox();
-            this.lbl_Case = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.cbBanPhim = new System.Windows.Forms.ComboBox();
-            this.lbl_BanPhim = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.lbl_Chuot = new System.Windows.Forms.Label();
+            this.cbChuot = new System.Windows.Forms.Label();
             this.cbManHinh = new System.Windows.Forms.ComboBox();
-            this.lbl_ManHinh = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.txtNhapTenMay = new System.Windows.Forms.TextBox();
-            this.lbl_TenMay = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.txtNhapMaMay = new System.Windows.Forms.TextBox();
-            this.lbl_MaMay = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.MaMay = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TenMay = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -85,55 +85,55 @@
             this.HeDieuHanh = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TrangThai = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.GhiChu = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.grp_QuanLyMay.SuspendLayout();
-            this.grp_TimKiem.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // lbl_QuanLyMay
+            // label1
             // 
-            this.lbl_QuanLyMay.AutoSize = true;
-            this.lbl_QuanLyMay.Font = new System.Drawing.Font("Microsoft Sans Serif", 39.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_QuanLyMay.Location = new System.Drawing.Point(12, 9);
-            this.lbl_QuanLyMay.Name = "lbl_QuanLyMay";
-            this.lbl_QuanLyMay.Size = new System.Drawing.Size(339, 61);
-            this.lbl_QuanLyMay.TabIndex = 0;
-            this.lbl_QuanLyMay.Text = "Quản Lý Máy";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("UTM Aurora", 39.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(266, 66);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Quản Lý Máy";
             // 
-            // grp_QuanLyMay
+            // groupBox1
             // 
-            this.grp_QuanLyMay.Controls.Add(this.grp_TimKiem);
-            this.grp_QuanLyMay.Controls.Add(this.btnXoa);
-            this.grp_QuanLyMay.Controls.Add(this.btnSua);
-            this.grp_QuanLyMay.Controls.Add(this.tbnThem);
-            this.grp_QuanLyMay.Controls.Add(this.cbTrangThai);
-            this.grp_QuanLyMay.Controls.Add(this.lbl_TrangThai);
-            this.grp_QuanLyMay.Controls.Add(this.groupBox2);
-            this.grp_QuanLyMay.Controls.Add(this.txtNhapTenMay);
-            this.grp_QuanLyMay.Controls.Add(this.lbl_TenMay);
-            this.grp_QuanLyMay.Controls.Add(this.txtNhapMaMay);
-            this.grp_QuanLyMay.Controls.Add(this.lbl_MaMay);
-            this.grp_QuanLyMay.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grp_QuanLyMay.Location = new System.Drawing.Point(1, 92);
-            this.grp_QuanLyMay.Name = "grp_QuanLyMay";
-            this.grp_QuanLyMay.Size = new System.Drawing.Size(899, 444);
-            this.grp_QuanLyMay.TabIndex = 1;
-            this.grp_QuanLyMay.TabStop = false;
-            this.grp_QuanLyMay.Text = "Quản Lý Máy";
+            this.groupBox1.Controls.Add(this.groupBox3);
+            this.groupBox1.Controls.Add(this.btnXoa);
+            this.groupBox1.Controls.Add(this.btnSua);
+            this.groupBox1.Controls.Add(this.tbnThem);
+            this.groupBox1.Controls.Add(this.cbTrangThai);
+            this.groupBox1.Controls.Add(this.label13);
+            this.groupBox1.Controls.Add(this.groupBox2);
+            this.groupBox1.Controls.Add(this.txtNhapTenMay);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.txtNhapMaMay);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Location = new System.Drawing.Point(1, 92);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(899, 444);
+            this.groupBox1.TabIndex = 1;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Quản Lý Máy";
             // 
-            // grp_TimKiem
+            // groupBox3
             // 
-            this.grp_TimKiem.Controls.Add(this.radTrangThai);
-            this.grp_TimKiem.Controls.Add(this.radTenMay);
-            this.grp_TimKiem.Controls.Add(this.radMaMay);
-            this.grp_TimKiem.Controls.Add(this.textBox1);
-            this.grp_TimKiem.Location = new System.Drawing.Point(22, 358);
-            this.grp_TimKiem.Name = "grp_TimKiem";
-            this.grp_TimKiem.Size = new System.Drawing.Size(700, 65);
-            this.grp_TimKiem.TabIndex = 24;
-            this.grp_TimKiem.TabStop = false;
-            this.grp_TimKiem.Text = "Tìm Kiếm";
+            this.groupBox3.Controls.Add(this.radTrangThai);
+            this.groupBox3.Controls.Add(this.radTenMay);
+            this.groupBox3.Controls.Add(this.radMaMay);
+            this.groupBox3.Controls.Add(this.textBox1);
+            this.groupBox3.Location = new System.Drawing.Point(22, 358);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(700, 65);
+            this.groupBox3.TabIndex = 24;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Tìm Kiếm";
             // 
             // radTrangThai
             // 
@@ -219,41 +219,41 @@
             this.cbTrangThai.Size = new System.Drawing.Size(112, 21);
             this.cbTrangThai.TabIndex = 20;
             // 
-            // lbl_TrangThai
+            // label13
             // 
-            this.lbl_TrangThai.AutoSize = true;
-            this.lbl_TrangThai.Location = new System.Drawing.Point(541, 37);
-            this.lbl_TrangThai.Name = "lbl_TrangThai";
-            this.lbl_TrangThai.Size = new System.Drawing.Size(77, 13);
-            this.lbl_TrangThai.TabIndex = 5;
-            this.lbl_TrangThai.Text = "Trạng Thái: ";
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(541, 37);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(77, 13);
+            this.label13.TabIndex = 5;
+            this.label13.Text = "Trạng Thái: ";
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.txtGhiChu);
-            this.groupBox2.Controls.Add(this.lbl_GhiChu);
+            this.groupBox2.Controls.Add(this.label15);
             this.groupBox2.Controls.Add(this.cbHeDieuHanh);
-            this.groupBox2.Controls.Add(this.lbl_HDH);
+            this.groupBox2.Controls.Add(this.label14);
             this.groupBox2.Controls.Add(this.cbPSU);
-            this.groupBox2.Controls.Add(this.lbl_PSU);
+            this.groupBox2.Controls.Add(this.label8);
             this.groupBox2.Controls.Add(this.cbVGA);
-            this.groupBox2.Controls.Add(this.lbl_VGA);
+            this.groupBox2.Controls.Add(this.label9);
             this.groupBox2.Controls.Add(this.cbOCung);
-            this.groupBox2.Controls.Add(this.lbl_OCung);
+            this.groupBox2.Controls.Add(this.label10);
             this.groupBox2.Controls.Add(this.cbRAM);
-            this.groupBox2.Controls.Add(this.lbl_RAM);
+            this.groupBox2.Controls.Add(this.label11);
             this.groupBox2.Controls.Add(this.cbMainBoard);
-            this.groupBox2.Controls.Add(this.lbl_MainBoard);
+            this.groupBox2.Controls.Add(this.label12);
             this.groupBox2.Controls.Add(this.cbCPU);
-            this.groupBox2.Controls.Add(this.lbl_CPU);
+            this.groupBox2.Controls.Add(this.label7);
             this.groupBox2.Controls.Add(this.cbCase);
-            this.groupBox2.Controls.Add(this.lbl_Case);
+            this.groupBox2.Controls.Add(this.label6);
             this.groupBox2.Controls.Add(this.cbBanPhim);
-            this.groupBox2.Controls.Add(this.lbl_BanPhim);
+            this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.comboBox1);
-            this.groupBox2.Controls.Add(this.lbl_Chuot);
+            this.groupBox2.Controls.Add(this.cbChuot);
             this.groupBox2.Controls.Add(this.cbManHinh);
-            this.groupBox2.Controls.Add(this.lbl_ManHinh);
+            this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Location = new System.Drawing.Point(22, 79);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(700, 273);
@@ -268,14 +268,14 @@
             this.txtGhiChu.Size = new System.Drawing.Size(182, 20);
             this.txtGhiChu.TabIndex = 25;
             // 
-            // lbl_GhiChu
+            // label15
             // 
-            this.lbl_GhiChu.AutoSize = true;
-            this.lbl_GhiChu.Location = new System.Drawing.Point(395, 236);
-            this.lbl_GhiChu.Name = "lbl_GhiChu";
-            this.lbl_GhiChu.Size = new System.Drawing.Size(56, 13);
-            this.lbl_GhiChu.TabIndex = 24;
-            this.lbl_GhiChu.Text = "Ghi Chú:";
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(395, 236);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(56, 13);
+            this.label15.TabIndex = 24;
+            this.label15.Text = "Ghi Chú:";
             // 
             // cbHeDieuHanh
             // 
@@ -285,14 +285,14 @@
             this.cbHeDieuHanh.Size = new System.Drawing.Size(181, 21);
             this.cbHeDieuHanh.TabIndex = 21;
             // 
-            // lbl_HDH
+            // label14
             // 
-            this.lbl_HDH.AutoSize = true;
-            this.lbl_HDH.Location = new System.Drawing.Point(7, 236);
-            this.lbl_HDH.Name = "lbl_HDH";
-            this.lbl_HDH.Size = new System.Drawing.Size(95, 13);
-            this.lbl_HDH.TabIndex = 20;
-            this.lbl_HDH.Text = "Hệ Điều Hành: ";
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(7, 236);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(95, 13);
+            this.label14.TabIndex = 20;
+            this.label14.Text = "Hệ Điều Hành: ";
             // 
             // cbPSU
             // 
@@ -302,14 +302,14 @@
             this.cbPSU.Size = new System.Drawing.Size(182, 21);
             this.cbPSU.TabIndex = 19;
             // 
-            // lbl_PSU
+            // label8
             // 
-            this.lbl_PSU.AutoSize = true;
-            this.lbl_PSU.Location = new System.Drawing.Point(396, 193);
-            this.lbl_PSU.Name = "lbl_PSU";
-            this.lbl_PSU.Size = new System.Drawing.Size(40, 13);
-            this.lbl_PSU.TabIndex = 18;
-            this.lbl_PSU.Text = "PSU: ";
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(396, 193);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(40, 13);
+            this.label8.TabIndex = 18;
+            this.label8.Text = "PSU: ";
             // 
             // cbVGA
             // 
@@ -319,14 +319,14 @@
             this.cbVGA.Size = new System.Drawing.Size(182, 21);
             this.cbVGA.TabIndex = 17;
             // 
-            // lbl_VGA
+            // label9
             // 
-            this.lbl_VGA.AutoSize = true;
-            this.lbl_VGA.Location = new System.Drawing.Point(396, 155);
-            this.lbl_VGA.Name = "lbl_VGA";
-            this.lbl_VGA.Size = new System.Drawing.Size(40, 13);
-            this.lbl_VGA.TabIndex = 16;
-            this.lbl_VGA.Text = "VGA: ";
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(396, 155);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(40, 13);
+            this.label9.TabIndex = 16;
+            this.label9.Text = "VGA: ";
             // 
             // cbOCung
             // 
@@ -336,14 +336,14 @@
             this.cbOCung.Size = new System.Drawing.Size(182, 21);
             this.cbOCung.TabIndex = 15;
             // 
-            // lbl_OCung
+            // label10
             // 
-            this.lbl_OCung.AutoSize = true;
-            this.lbl_OCung.Location = new System.Drawing.Point(396, 115);
-            this.lbl_OCung.Name = "lbl_OCung";
-            this.lbl_OCung.Size = new System.Drawing.Size(57, 13);
-            this.lbl_OCung.TabIndex = 14;
-            this.lbl_OCung.Text = "Ổ Cứng: ";
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(396, 115);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(57, 13);
+            this.label10.TabIndex = 14;
+            this.label10.Text = "Ổ Cứng: ";
             // 
             // cbRAM
             // 
@@ -353,14 +353,14 @@
             this.cbRAM.Size = new System.Drawing.Size(182, 21);
             this.cbRAM.TabIndex = 13;
             // 
-            // lbl_RAM
+            // label11
             // 
-            this.lbl_RAM.AutoSize = true;
-            this.lbl_RAM.Location = new System.Drawing.Point(396, 74);
-            this.lbl_RAM.Name = "lbl_RAM";
-            this.lbl_RAM.Size = new System.Drawing.Size(42, 13);
-            this.lbl_RAM.TabIndex = 12;
-            this.lbl_RAM.Text = "RAM: ";
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(396, 74);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(40, 13);
+            this.label11.TabIndex = 12;
+            this.label11.Text = "Ram: ";
             // 
             // cbMainBoard
             // 
@@ -370,14 +370,14 @@
             this.cbMainBoard.Size = new System.Drawing.Size(182, 21);
             this.cbMainBoard.TabIndex = 11;
             // 
-            // lbl_MainBoard
+            // label12
             // 
-            this.lbl_MainBoard.AutoSize = true;
-            this.lbl_MainBoard.Location = new System.Drawing.Point(396, 34);
-            this.lbl_MainBoard.Name = "lbl_MainBoard";
-            this.lbl_MainBoard.Size = new System.Drawing.Size(75, 13);
-            this.lbl_MainBoard.TabIndex = 10;
-            this.lbl_MainBoard.Text = "MainBoard: ";
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(396, 34);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(75, 13);
+            this.label12.TabIndex = 10;
+            this.label12.Text = "MainBoard: ";
             // 
             // cbCPU
             // 
@@ -387,14 +387,14 @@
             this.cbCPU.Size = new System.Drawing.Size(181, 21);
             this.cbCPU.TabIndex = 9;
             // 
-            // lbl_CPU
+            // label7
             // 
-            this.lbl_CPU.AutoSize = true;
-            this.lbl_CPU.Location = new System.Drawing.Point(7, 193);
-            this.lbl_CPU.Name = "lbl_CPU";
-            this.lbl_CPU.Size = new System.Drawing.Size(40, 13);
-            this.lbl_CPU.TabIndex = 8;
-            this.lbl_CPU.Text = "CPU: ";
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(7, 193);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(40, 13);
+            this.label7.TabIndex = 8;
+            this.label7.Text = "CPU: ";
             // 
             // cbCase
             // 
@@ -404,14 +404,14 @@
             this.cbCase.Size = new System.Drawing.Size(181, 21);
             this.cbCase.TabIndex = 7;
             // 
-            // lbl_Case
+            // label6
             // 
-            this.lbl_Case.AutoSize = true;
-            this.lbl_Case.Location = new System.Drawing.Point(7, 155);
-            this.lbl_Case.Name = "lbl_Case";
-            this.lbl_Case.Size = new System.Drawing.Size(43, 13);
-            this.lbl_Case.TabIndex = 6;
-            this.lbl_Case.Text = "Case: ";
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(7, 155);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(43, 13);
+            this.label6.TabIndex = 6;
+            this.label6.Text = "Case: ";
             // 
             // cbBanPhim
             // 
@@ -421,14 +421,14 @@
             this.cbBanPhim.Size = new System.Drawing.Size(181, 21);
             this.cbBanPhim.TabIndex = 5;
             // 
-            // lbl_BanPhim
+            // label5
             // 
-            this.lbl_BanPhim.AutoSize = true;
-            this.lbl_BanPhim.Location = new System.Drawing.Point(7, 115);
-            this.lbl_BanPhim.Name = "lbl_BanPhim";
-            this.lbl_BanPhim.Size = new System.Drawing.Size(70, 13);
-            this.lbl_BanPhim.TabIndex = 4;
-            this.lbl_BanPhim.Text = "Bàn Phím: ";
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(7, 115);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(70, 13);
+            this.label5.TabIndex = 4;
+            this.label5.Text = "Bàn Phím: ";
             // 
             // comboBox1
             // 
@@ -438,14 +438,14 @@
             this.comboBox1.Size = new System.Drawing.Size(181, 21);
             this.comboBox1.TabIndex = 3;
             // 
-            // lbl_Chuot
+            // cbChuot
             // 
-            this.lbl_Chuot.AutoSize = true;
-            this.lbl_Chuot.Location = new System.Drawing.Point(7, 74);
-            this.lbl_Chuot.Name = "lbl_Chuot";
-            this.lbl_Chuot.Size = new System.Drawing.Size(48, 13);
-            this.lbl_Chuot.TabIndex = 2;
-            this.lbl_Chuot.Text = "Chuột: ";
+            this.cbChuot.AutoSize = true;
+            this.cbChuot.Location = new System.Drawing.Point(7, 74);
+            this.cbChuot.Name = "cbChuot";
+            this.cbChuot.Size = new System.Drawing.Size(48, 13);
+            this.cbChuot.TabIndex = 2;
+            this.cbChuot.Text = "Chuột: ";
             // 
             // cbManHinh
             // 
@@ -455,14 +455,14 @@
             this.cbManHinh.Size = new System.Drawing.Size(181, 21);
             this.cbManHinh.TabIndex = 1;
             // 
-            // lbl_ManHinh
+            // label4
             // 
-            this.lbl_ManHinh.AutoSize = true;
-            this.lbl_ManHinh.Location = new System.Drawing.Point(7, 34);
-            this.lbl_ManHinh.Name = "lbl_ManHinh";
-            this.lbl_ManHinh.Size = new System.Drawing.Size(69, 13);
-            this.lbl_ManHinh.TabIndex = 0;
-            this.lbl_ManHinh.Text = "Màn Hình: ";
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(7, 34);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(69, 13);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Màn Hình: ";
             // 
             // txtNhapTenMay
             // 
@@ -471,14 +471,14 @@
             this.txtNhapTenMay.Size = new System.Drawing.Size(143, 20);
             this.txtNhapTenMay.TabIndex = 3;
             // 
-            // lbl_TenMay
+            // label3
             // 
-            this.lbl_TenMay.AutoSize = true;
-            this.lbl_TenMay.Location = new System.Drawing.Point(271, 37);
-            this.lbl_TenMay.Name = "lbl_TenMay";
-            this.lbl_TenMay.Size = new System.Drawing.Size(64, 13);
-            this.lbl_TenMay.TabIndex = 2;
-            this.lbl_TenMay.Text = "Tên Máy: ";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(271, 37);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(64, 13);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Tên Máy: ";
             // 
             // txtNhapMaMay
             // 
@@ -487,14 +487,14 @@
             this.txtNhapMaMay.Size = new System.Drawing.Size(143, 20);
             this.txtNhapMaMay.TabIndex = 1;
             // 
-            // lbl_MaMay
+            // label2
             // 
-            this.lbl_MaMay.AutoSize = true;
-            this.lbl_MaMay.Location = new System.Drawing.Point(22, 37);
-            this.lbl_MaMay.Name = "lbl_MaMay";
-            this.lbl_MaMay.Size = new System.Drawing.Size(59, 13);
-            this.lbl_MaMay.TabIndex = 0;
-            this.lbl_MaMay.Text = "Mã Máy: ";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(22, 37);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(59, 13);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Mã Máy: ";
             // 
             // dataGridView1
             // 
@@ -527,7 +527,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(1, 532);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(1094, 205);
+            this.dataGridView1.Size = new System.Drawing.Size(899, 205);
             this.dataGridView1.TabIndex = 2;
             // 
             // MaMay
@@ -634,20 +634,20 @@
             this.GhiChu.ReadOnly = true;
             this.GhiChu.Width = 70;
             // 
-            // frm_QuanLyMay
+            // frmQLMay
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1095, 739);
+            this.ClientSize = new System.Drawing.Size(900, 739);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.lbl_QuanLyMay);
-            this.Controls.Add(this.grp_QuanLyMay);
-            this.Name = "frm_QuanLyMay";
-            this.Text = "frm_QuanLyMay";
-            this.grp_QuanLyMay.ResumeLayout(false);
-            this.grp_QuanLyMay.PerformLayout();
-            this.grp_TimKiem.ResumeLayout(false);
-            this.grp_TimKiem.PerformLayout();
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.groupBox1);
+            this.Name = "frmQLMay";
+            this.Text = "frmQLMay";
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -658,46 +658,46 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lbl_QuanLyMay;
-        private System.Windows.Forms.GroupBox grp_QuanLyMay;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox txtNhapTenMay;
-        private System.Windows.Forms.Label lbl_TenMay;
+        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtNhapMaMay;
-        private System.Windows.Forms.Label lbl_MaMay;
+        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.ComboBox cbCase;
-        private System.Windows.Forms.Label lbl_Case;
+        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.ComboBox cbBanPhim;
-        private System.Windows.Forms.Label lbl_BanPhim;
+        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label lbl_Chuot;
+        private System.Windows.Forms.Label cbChuot;
         private System.Windows.Forms.ComboBox cbManHinh;
-        private System.Windows.Forms.Label lbl_ManHinh;
+        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox cbCPU;
-        private System.Windows.Forms.Label lbl_CPU;
+        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.ComboBox cbPSU;
-        private System.Windows.Forms.Label lbl_PSU;
+        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.ComboBox cbVGA;
-        private System.Windows.Forms.Label lbl_VGA;
+        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.ComboBox cbOCung;
-        private System.Windows.Forms.Label lbl_OCung;
+        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.ComboBox cbRAM;
-        private System.Windows.Forms.Label lbl_RAM;
+        private System.Windows.Forms.Label label11;
         private System.Windows.Forms.ComboBox cbMainBoard;
-        private System.Windows.Forms.Label lbl_MainBoard;
+        private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Button btnXoa;
         private System.Windows.Forms.Button btnSua;
         private System.Windows.Forms.Button tbnThem;
         private System.Windows.Forms.ComboBox cbTrangThai;
-        private System.Windows.Forms.Label lbl_TrangThai;
+        private System.Windows.Forms.Label label13;
         private System.Windows.Forms.ComboBox cbHeDieuHanh;
-        private System.Windows.Forms.Label lbl_HDH;
-        private System.Windows.Forms.GroupBox grp_TimKiem;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.RadioButton radTenMay;
         private System.Windows.Forms.RadioButton radMaMay;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox txtGhiChu;
-        private System.Windows.Forms.Label lbl_GhiChu;
+        private System.Windows.Forms.Label label15;
         private System.Windows.Forms.RadioButton radTrangThai;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn MaMay;
