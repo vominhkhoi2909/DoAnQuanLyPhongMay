@@ -1,0 +1,21 @@
+D:\Đồ án Quản Lý Phòng Máy\Quản Lý Phòng Máy\Quản Lý Phòng Máy\bin\Debug\Quản Lý Phòng Máy.exe.config
+D:\Đồ án Quản Lý Phòng Máy\Quản Lý Phòng Máy\Quản Lý Phòng Máy\bin\Debug\Quản Lý Phòng Máy.exe
+D:\Đồ án Quản Lý Phòng Máy\Quản Lý Phòng Máy\Quản Lý Phòng Máy\bin\Debug\Quản Lý Phòng Máy.pdb
+D:\Đồ án Quản Lý Phòng Máy\Quản Lý Phòng Máy\Quản Lý Phòng Máy\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+D:\Đồ án Quản Lý Phòng Máy\Quản Lý Phòng Máy\Quản Lý Phòng Máy\obj\Debug\Quản_Lý_Phòng_Máy.Form_dangnhap.resources
+D:\Đồ án Quản Lý Phòng Máy\Quản Lý Phòng Máy\Quản Lý Phòng Máy\obj\Debug\Quản_Lý_Phòng_Máy.Properties.Resources.resources
+D:\Đồ án Quản Lý Phòng Máy\Quản Lý Phòng Máy\Quản Lý Phòng Máy\obj\Debug\GUI.csproj.GenerateResource.Cache
+D:\Đồ án Quản Lý Phòng Máy\Quản Lý Phòng Máy\Quản Lý Phòng Máy\obj\Debug\Quản Lý Phòng Máy.exe
+D:\Đồ án Quản Lý Phòng Máy\Quản Lý Phòng Máy\Quản Lý Phòng Máy\obj\Debug\Quản Lý Phòng Máy.pdb
+C:\Users\tranq\Desktop\Do_An_Quan_Ly_Phong_May_Cua_Truong\Đồ án Quản Lý Phòng Máy\Quản Lý Phòng Máy\Quản Lý Phòng Máy\bin\Debug\Quản Lý Phòng Máy.exe.config
+C:\Users\tranq\Desktop\Do_An_Quan_Ly_Phong_May_Cua_Truong\Đồ án Quản Lý Phòng Máy\Quản Lý Phòng Máy\Quản Lý Phòng Máy\obj\Debug\Quản Lý Phòng Máy.exe
+C:\Users\tranq\Desktop\Do_An_Quan_Ly_Phong_May_Cua_Truong\Đồ án Quản Lý Phòng Máy\Quản Lý Phòng Máy\Quản Lý Phòng Máy\obj\Debug\Quản Lý Phòng Máy.pdb
+C:\Users\tranq\Desktop\Do_An_Quan_Ly_Phong_May_Cua_Truong\Đồ án Quản Lý Phòng Máy\Quản Lý Phòng Máy\Quản Lý Phòng Máy\bin\Debug\Quản Lý Phòng Máy.exe
+C:\Users\tranq\Desktop\Do_An_Quan_Ly_Phong_May_Cua_Truong\Đồ án Quản Lý Phòng Máy\Quản Lý Phòng Máy\Quản Lý Phòng Máy\bin\Debug\Quản Lý Phòng Máy.pdb
+C:\Users\tranq\Desktop\Do_An_Quan_Ly_Phong_May_Cua_Truong\Đồ án Quản Lý Phòng Máy\Quản Lý Phòng Máy\Quản Lý Phòng Máy\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+C:\Users\tranq\Desktop\Do_An_Quan_Ly_Phong_May_Cua_Truong\Đồ án Quản Lý Phòng Máy\Quản Lý Phòng Máy\Quản Lý Phòng Máy\obj\Debug\Quản_Lý_Phòng_Máy.Form_dangnhap.resources
+C:\Users\tranq\Desktop\Do_An_Quan_Ly_Phong_May_Cua_Truong\Đồ án Quản Lý Phòng Máy\Quản Lý Phòng Máy\Quản Lý Phòng Máy\obj\Debug\Quản_Lý_Phòng_Máy.frmGVPhuTrach.resources
+C:\Users\tranq\Desktop\Do_An_Quan_Ly_Phong_May_Cua_Truong\Đồ án Quản Lý Phòng Máy\Quản Lý Phòng Máy\Quản Lý Phòng Máy\obj\Debug\Quản_Lý_Phòng_Máy.frmQLMay.resources
+C:\Users\tranq\Desktop\Do_An_Quan_Ly_Phong_May_Cua_Truong\Đồ án Quản Lý Phòng Máy\Quản Lý Phòng Máy\Quản Lý Phòng Máy\obj\Debug\Quản_Lý_Phòng_Máy.frmTrangChu.resources
+C:\Users\tranq\Desktop\Do_An_Quan_Ly_Phong_May_Cua_Truong\Đồ án Quản Lý Phòng Máy\Quản Lý Phòng Máy\Quản Lý Phòng Máy\obj\Debug\Quản_Lý_Phòng_Máy.Properties.Resources.resources
+C:\Users\tranq\Desktop\Do_An_Quan_Ly_Phong_May_Cua_Truong\Đồ án Quản Lý Phòng Máy\Quản Lý Phòng Máy\Quản Lý Phòng Máy\obj\Debug\GUI.csproj.GenerateResource.Cache
